@@ -1,0 +1,226 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.eot'); 
+  src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2'), 
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.woff') format('woff'), 
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.ttf') format('truetype'), 
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-regular.svg#Roboto') format('svg'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.eot'); 
+  src: url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2'), 
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.woff') format('woff'), 
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.ttf') format('truetype'), 
+       url('../fonts/roboto-v30-cyrillic_cyrillic-ext_latin-700.svg#Roboto') format('svg'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-regular.eot'); 
+  src: url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-regular.woff2') format('woff2'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-regular.woff') format('woff'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-regular.ttf') format('truetype'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-regular.svg#Play') format('svg'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-700.eot');
+  src: url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-700.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-700.woff2') format('woff2'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-700.woff') format('woff'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-700.ttf') format('truetype'), 
+       url('../fonts/play-v17-cyrillic_cyrillic-ext_latin-700.svg#Play') format('svg'); 
+}
+
+:root {
+  --main-color: #011c44;
+  --main-white-color: #ffffff;
+  --brend-color: #2b7fff;
+}
+
+/*Base*/
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #ffffff;
+}
+
+body {
+  color: var(--main-color);
+  font-family: 'Roboto', sans-serif; 
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+/*botton*/
+
+.button-button {
+  color: var(--main-white-color);
+  background-color: #2b7fff;
+  border: 2px solid var(--brend-color);
+  border-radius: 24px;
+  line-height: 1.2;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.button-button:hover {
+  color: var(--main-color);
+  background-color: transparent;
+  border: 2px solid var(--brend-color);
+  border-radius: 24px;
+  font-weight: 400;
+}
+
+.button-submit {
+  color: var(--main-white-color);
+  background-color: #2b7fff;
+  border: 2px solid var(--brend-color);
+  border-radius: 24px;
+  line-height: 1.2;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+ .button-submit:hover {
+  color: #011c44;
+  background-color: var(--main-white-color);
+ 
+}
+
+/*hero section*/
+
+h1 {
+  color: var(--brend-color);
+  font-family: 'Play', sans-serif ;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.8;
+  text-transform: capitalize;
+}
+
+.hero-descrp{
+  font-size: 12px;
+  line-height: 1.5;
+}
+/*menu*/
+.hero-menu {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.hero-menu:hover {
+  color: #2b7fff;
+  font-weight: 700;
+}
+/*about section*/
+
+.about-h2 {
+  color: var(--brend-color);
+  text-transform: capitalize;
+}
+
+.about-h2-text{
+  font-family: 'Play';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.about-text{
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.about-strong{
+  text-transform: capitalize;
+}
+/*advantage section*/
+
+.advantage-h2-text{
+  font-family: 'Play';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  text-align: center;
+
+}
+.advantage-text{
+  font-size: 22px;
+  line-height: 1.2;
+  
+}
+/*services section*/
+
+.services-h3 {
+  color: var(--main-white-color);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+}
+/*contact section*/
+
+.advantage-h2-text{
+  font-family: 'Play';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  text-align: center;
+}
+.contact-form {
+  color: var(--main-white-color);
+  background-color: var(--main-color);
+}
+
+.contact-form-h3{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.conf {
+  color: #747272;
+}
+
+/*footer section*/
+.footer {
+  background-color: var(--main-color);
+}
+
+.copyright {
+  color: #747272;
+  font-size: 13px;
+}
+
+.footer-menu{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: normal;
+
+}
+
+.footer-menu:hover {
+  font-weight: 700;
+}
