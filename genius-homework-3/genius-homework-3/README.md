@@ -1,2 +1,0 @@
-# genius-homework-3
- 
