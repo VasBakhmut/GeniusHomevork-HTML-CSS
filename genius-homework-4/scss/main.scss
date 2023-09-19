@@ -1,0 +1,36 @@
+@import './utils/fonts';
+@import './base';
+@import './utils/roots';
+@import './utils/texts';
+@import './layout/container';
+@import './components/input';
+@import './layout/mobile-menu';
+@import './components/pagination';
+
+// botton
+@import './components/buttons';
+
+// header menu belt section
+@import './layout/header';
+
+// hero section
+@import './layout/hero-section';
+
+// about section
+@import './layout/about-section';
+
+// advantage section
+@import './components/blue-wave-backgraund';
+@import './layout/advantage\ section';
+
+// services section
+@import './layout/service-section';
+
+// contact section
+@import './layout/contact-section';
+
+// footer section
+@import './layout/footer';
+
+// Modal-Window-Form
+@import './layout/modal-form';
